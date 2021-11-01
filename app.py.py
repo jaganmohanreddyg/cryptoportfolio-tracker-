@@ -5,6 +5,8 @@ from requests import Session
 import json
 import os
 os.system('cls')
+PORT = int(os.environ.get('PORT', '8443'))
+
 #############################################
 def red_green(amount):
 	if amount >= 0:
